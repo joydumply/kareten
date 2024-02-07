@@ -1,0 +1,454 @@
+/* Custom Styles start */
+
+.kareten_section {
+	font-family: 'Merriweather', Sans-serif;
+}
+.kareten-container {
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+.kareten-col {
+	position: relative;
+}
+.kareten-col.content-col {
+	width: 71.578%;
+}
+.kareten-col.widget {
+	width: 28.42%;
+}
+
+.karaten-wrap {
+	background-color: #fff;
+	padding: 60px 60px 120px 60px;
+}
+
+.karaten-page-title {
+	color: #333333;
+	font-family: 'Merriweather', Sans-serif;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+}
+.karaten-sub-title {
+	margin-bottom: 0.9rem;
+	text-align: center;
+	font-size: 24px;
+}
+.karaten-sub-title.align-left {
+	text-align: left;
+}
+
+.karaten-table-wrap {
+	margin-bottom: 20px;
+}
+.karaten-table-wrap table {
+	font-size: 0.9rem;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 auto 1rem;
+	width: 100%;
+	color: #111;
+}
+.karaten-table-wrap table tbody {
+}
+.karaten-table-wrap table tbody tr:hover {
+	background-color: #f3f3f3;
+}
+.karaten-table-wrap table tbody tr:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+.karaten-table-wrap table tbody tr td {
+	border: 1px solid hsla(0, 0%, 50.2%, 0.5019607843);
+	padding: 15px;
+}
+.karaten-table-wrap table tbody tr td img {
+}
+
+.karaten-section-field {
+	background-color: hsla(0, 0%, 50.2%, 0.0705882353);
+	padding: 15px;
+	line-height: 1.5;
+	border: 1px solid hsla(0, 0%, 50.2%, 0.5019607843);
+}
+
+.karaten-common-section {
+}
+.book_btn {
+	background-color: #b99c66;
+	color: #fff;
+	width: 154px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	text-decoration: none;
+	margin: 32px auto;
+}
+.book_btn:hover,
+.book_btn:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.karaten-tables table tr td:first-child {
+	width: 130px;
+}
+
+.karaten-tables table i {
+	font-family: 'Overpass', sans-serif;
+	font-size: 14px;
+	color: #b99c66;
+}
+.karaten-widget-wrap {
+	background-color: #17191b;
+	height: 100vh;
+	z-index: 99;
+}
+.karaten-nav-menu {
+	margin: 0 32px 0;
+	padding: 64px 10px 0;
+}
+.karaten-nav-menu-container {
+}
+.karaten-nav-menu-container nav {
+}
+.karaten-nav-menu-container nav > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	line-height: normal;
+	position: relative;
+	z-index: 2;
+}
+.karaten-nav-menu-container nav > ul li {
+}
+.karaten-nav-menu-container nav > ul li a {
+	color: #b99c66;
+	padding: 15px 0;
+	font-size: 17px;
+	font-weight: 700;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.karaten-nav-menu-container nav > ul li .sub-menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: none;
+}
+.karaten-nav-menu-container nav > ul li.current-menu-item .sub-menu {
+	display: block;
+}
+.karaten-nav-menu-container nav > ul li .sub-menu li {
+	font-size: 13px;
+	line-height: 20px;
+	position: relative;
+	padding-left: 20px;
+}
+.karaten-nav-menu-container nav > ul li .sub-menu li:before {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: #b99c66;
+	border-radius: 50%;
+	top: calc(50% - 6px);
+	left: 0;
+}
+.karaten-nav-menu-container nav > ul li .sub-menu li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.widget-sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+/* .karaten-table-wrap table tbody {
+}
+.karaten-table-wrap table tbody tr:hover {
+	background-color: #f3f3f3;
+}
+.karaten-table-wrap table tbody tr:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+.karaten-table-wrap table tbody tr td {
+	border: 1px solid hsla(0, 0%, 50.2%, 0.5019607843);
+	padding: 15px;
+} */
+
+.karaten-wrap .wp-block-table table {
+}
+.karaten-wrap .wp-block-table table tbody {
+}
+.karaten-wrap .wp-block-table table tbody tr:hover {
+	background-color: #f3f3f3;
+}
+
+.karaten-wrap .wp-block-table table tbody tr:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+.karaten-wrap .wp-block-table table tbody tr td {
+	border: 1px solid hsla(0, 0%, 50.2%, 0.5019607843);
+	padding: 15px;
+}
+
+/*  Take away */
+.karaten-wrap p {
+	color: #17191b;
+	font-size: 16px;
+	margin-bottom: 14.4px;
+}
+
+.karaten-wrap h1,
+.karaten-wrap h2,
+.karaten-wrap h3,
+.karaten-wrap h4 {
+	color: #333;
+}
+
+.karaten-wrap h3 {
+	font-size: 24px;
+	margin: 8px 0 16px;
+}
+
+.karaten-wrap h4 {
+	font-size: 18px;
+}
+
+/*  Jul & Nutar */
+.kareten-category-page-wrap {
+	font-family: 'Merriweather', Sans-serif;
+}
+.kareten-category-top-section {
+	width: 100%;
+	height: 430px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.kareten-category-top-section .kareten-background-overlay {
+	position: absolute;
+	background-color: #17191b;
+	opacity: 0.5;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.kareten-category-top-section .kareten-category-title {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: normal;
+	position: relative;
+	z-index: 2;
+}
+.kareten-section {
+	padding: 50px 100px 110px 100px;
+}
+
+.kareten-wrap {
+	padding: 10px;
+}
+.kareten-wrap h2 {
+	color: #333;
+	font-size: 36px;
+	font-weight: normal;
+}
+.kareten-wrap h3 {
+	color: #333;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.kareten-heading-title {
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.width-50 {
+	width: calc(50% - 10px);
+}
+
+.kareten-post-item {
+	padding: 10px;
+	background-color: #17191b;
+	text-align: left;
+}
+.kareten-post-item .kareten-post-item-image {
+	margin-bottom: 15px;
+}
+.kareten-post-item .kareten-post-item-image a {
+}
+.kareten-post-item .kareten-post-item-image img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.kareten-post-item .kareten-post-title {
+	color: #fff;
+}
+.kareten-post-item .kareten-post-title a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.kareten-container {
+	max-width: 1140px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.kareten-slider-wrap {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding-top: 100px;
+	height: 382px;
+	text-align: center;
+	font-family: 'Merriweather', Sans-serif;
+}
+.kareten-slider-wrap .kareten-background-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #151515;
+	opacity: 0.37;
+}
+
+.kareten-slider-container {
+	position: relative;
+	z-index: 2;
+}
+.kareten-slider-subtitle {
+	color: #b99c66;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 14px;
+}
+.kareten-slider-title {
+	color: #fff;
+	font-size: 36px;
+	margin-top: 0;
+}
+.kareten-review-slider-block-wrap {
+	font-family: 'Merriweather', Sans-serif;
+	padding: 10px;
+	max-width: 1280px;
+	margin: 0 auto;
+	margin-top: -160px;
+}
+.kareten-review-slider-block {
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	background-color: #fff;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.kareten-review-slider-block .slick-dots {
+	position: absolute;
+	bottom: 5px;
+	display: flex;
+	gap: 6px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.kareten-review-slider-block .slick-dots button {
+	font-size: 0;
+	padding: 0;
+	background: #e9e9e9;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+}
+.kareten-review-slider-block .slick-dots .slick-active button {
+	background-color: #b99c66;
+}
+.kareten-review-slider-block .kareten-review-slider {
+	max-width: 100%;
+	padding: 0 20px;
+}
+.kareten-review-slider-block .kareten-review-slider .slick-arrow {
+	background: transparent;
+	border: 0;
+	color: #b99c66;
+	font-size: 17px;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.kareten-review-slider-block .kareten-review-slider .slick-arrow.slick-prev {
+	left: 10px;
+}
+.kareten-review-slider-block .kareten-review-slider .slick-arrow.slick-next {
+	right: 10px;
+}
+.kareten-review-slider .slick-slide {
+	/* not working. need to fix */
+	/* opacity: 0;
+	transition: all linear 0.6s; */
+}
+.kareten-review-slider .slick-slide.slick-active {
+	/* opacity: 1; */
+}
+.kareten-review-slider .kareten-review-slide {
+	text-align: center;
+}
+.kareten-review-slide-wrap {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.kareten-review-slider .kareten-review-slide .text {
+	font-size: 18px;
+	font-weight: 400;
+	font-style: oblique;
+	color: #17191b;
+	line-height: 1.4;
+	margin-bottom: 40px;
+}
+.kareten-review-slider .kareten-review-slide .author {
+	color: #b99c66;
+	font-size: 14px;
+}
+.kareten-review-slide-inner {
+	max-width: 755px;
+}
